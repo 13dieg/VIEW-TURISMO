@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+   background: linear-gradient(90deg,rgb(141, 104, 23) 0%, rgb(207, 160, 7)35%, rgb(255, 208, 0)100%);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+   min-height: 100vh;
+  }
+
+/*menu das paginas */
+  .navbar-brand {
+    background-color:none;
+    background-image:url(./imagens/viagee-turismo-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 48px;
+    height: 48px;
+  }
+  
+  .navbar-nav .nav-item:hover {
+    background-color: rgb(245, 243, 116);
+  }
+
+  /* pagina de abertura*/
+  .abertura{
+    font-size: auto;
+    font-family:italic;
+    color:rgb(15, 15, 15);
+
+
+  }
+  .conteudo{
+    text-align:justify;
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+  
+  /*fim pagina 1*/
+
+/*inicio pagina 2*/
+
+/*cards pagina de destino */
+.container {
+    
+  margin: 40px auto;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-column-gap: 20px;
+  grid-row-gap: 40px;
+  justify-content: center;
+  padding: 0 40px;
+
+}
+
+.polaroid {
+  background: rgb(214, 250, 83);
+  padding: 10px 10px 30px;
+}
+
+.photo {
+  width: 100%;
+  height: 290px;
+  object-fit: cover;
+}
+
+.caption {
+  margin-top: 10px;
+}
+h1{
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+/* fim pagina 2*/
+
+/*inicio pagina 3*/
+
+/*cards preço*/
+.father{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.conteúdo {
+flex: 1 1 150px;
+  width: 5%;
+  background:none;
+  border-radius: 20px;
+  margin: 5px;
+  float: left;
+  margin-top: 8%;
+  text-align: center; 
+
+}
+
+.preço {
+  width: 120px;
+  height: 120px;
+  margin: 5% auto 0 auto;
+  text-align: center;
+}
+
+.Detalhes {
+  margin-top: -50px;
+}
+.Conteúdp h1 {
+  font-size: 20px;
+  color: aliceblue;
+  line-height: 5;
+  text-transform: uppercase;
+}
+.preço h2 {
+  font-size: 40px;
+  color: antiquewhite;
+}
+#h3{
+font-size: 18px;
+font-weight: normal;
+text-align: center;
+color: rgb(250, 247, 62);
+line-height: 1;
+}
+.Detalhes h4 {
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  color: antiquewhite;
+  line-height: 1;
+  
+}
+.conteúdo a {
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid antiquewhite;
+  color: antiquewhite;
+  padding: 10px 60px;
+  display: inline-block;
+  margin: 10% auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.conteúdo a:hover{
+  text-decoration: none;
+  border-radius: 5px;
+  border: 2px solid rgb(248, 247, 247);
+  background: rgb(235, 248, 118);
+  color: rgb(14, 13, 13);
+  padding: 1opx 60px;
+  display:inline-block;
+  margin: 10% auto;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+#desconto {
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(15, 15, 15);
+}
+
+/*fim agina 3*/
+
+/*inicio pagina4*/
+
+/*cards interativos*/
+.alinhamento {
+  margin: 40px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:auto;
+  padding: 0px;
+}
+.card {
+  background-color:#e7e425;
+  border-radius: 5px;
+  box-shadow: 13px 13px 7px 0px rgba(94, 69, 69, 0.22);
+  padding: 100px;
+  margin: 5px;
+  width: 400px;
+  transition: all 0.3s ease-out;
+}
+.card:hover {
+  transform: translateY(-5px);
+  cursor:pointer;
+  background-color: #faec2e;
+}
+ 
+.card p {
+  color: #080808;
+  font-size: 16px;
+}
+ 
+.image {
+  float: right;
+  max-width: 80px;
+  max-height: 80px;
+}
+.blue {
+  border-left: 10px solid #e7e425;
+}
+ 
+.green {
+  border-left: 10px solid #9fb53b;
+}
+ 
+.red {
+  border-left: 10px solid #abb340;
+}
